@@ -1,0 +1,25 @@
+body{
+    background-color: peachpuff;
+    color: #ad0c0c;
+}
+.top{
+    text-align: center;
+    color: #5656f3;
+    background-color: aliceblue;
+}
+.recipes{
+    list-style-type: none;
+    text-align: center;
+}
+
+.button{
+    text-decoration: none;
+    color: #ad0c0c;
+    font-weight: 800px;
+}
+
+.picture{
+    border: 5px solid #5656f3;
+    border-radius: 10px;
+
+}
