@@ -1,0 +1,36 @@
+body {
+    background-color: #EFFBEE;
+    color: #192518;
+    font-family: 'Trebuchet MS', 'sans-serif';
+    margin: 0;
+    padding: 0;
+}
+.recipe{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    color: #192518;
+    font-size: 2em;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: flex-start; /* Aligns text and other elements to the top */
+    justify-content: flex-start; /* Ensures content starts at the top */
+    height: 100%; /* Ensures the container fills the parent */
+}
